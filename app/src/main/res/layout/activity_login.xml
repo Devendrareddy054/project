@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/pagebkg"
+    android:background="@drawable/logo"
     tools:context=".LoginActivity">
 
     <androidx.cardview.widget.CardView
@@ -24,6 +24,11 @@
             android:layout_gravity="center_horizontal"
             android:padding="24dp"
             android:background="@drawable/green_border">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/logo1"
+                android:layout_marginBottom="20dp" />
 
             <TextView
                 android:layout_width="match_parent"
