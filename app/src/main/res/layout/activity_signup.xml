@@ -19,7 +19,7 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="572dp"
+            android:layout_height="600dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/green_border"
             android:orientation="vertical"
@@ -28,13 +28,13 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="4dp"
                 app:srcCompat="@drawable/logo1" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="3dp"
                 android:text="Sign Up"
                 android:textAlignment="center"
                 android:textColor="@color/Green"
@@ -54,10 +54,22 @@
                 android:textColor="@color/black" />
 
             <EditText
+                android:id="@+id/signup_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/green_border"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Name"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <EditText
                 android:id="@+id/signup_email"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/green_border"
                 android:drawableLeft="@drawable/baseline_email_24"
                 android:drawablePadding="8dp"
@@ -69,7 +81,7 @@
                 android:id="@+id/signup_password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/green_border"
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:drawablePadding="8dp"
@@ -82,7 +94,7 @@
                 android:id="@+id/signup_button"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:backgroundTint="@color/Green"
                 android:text="Sign Up"
                 android:textSize="18sp"
